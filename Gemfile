@@ -6,7 +6,7 @@ gem 'rails', '3.2.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 # ignoring suggested changes to this file from pg. 42 of RoR3T
-gem 'sqlite3', 1.2.5, :group => :development
+gem 'sqlite3-ruby', 1.3.6, :group => :development
 
 
 # Gems used only for assets and not required
