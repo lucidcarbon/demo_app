@@ -5,9 +5,8 @@ gem 'rails', '3.2.1'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-# ignoring suggested changes to this file from pg. 42 of RoR3T
-gem 'sqlite3', '1.3.6', :group => :development
-
+#gem 'sqlite3', '1.3.6', :group => :development
+group :development, :test do gem 'sqlite3-ruby', :require => 'sqlite3' end
 
 # Gems used only for assets and not required
 # in production environments by default.
